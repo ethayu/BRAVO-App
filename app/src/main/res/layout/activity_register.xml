@@ -16,25 +16,31 @@
         android:textSize="25sp"/>
 
     <EditText
-    android:layout_centerHorizontal="true"
-    android:layout_centerVertical="true"
-    android:id="@+id/emailregister"
-    android:inputType="textEmailAddress"
-    android:hint="Email"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"/>
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/rEmailEdit"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
     <EditText
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:id="@+id/passwordregister"
+        android:id="@+id/rPasswordEdit"
         android:inputType="textPassword"
-        android:a
         android:hint="Password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/emailregister"/>
+        android:layout_below="@id/rEmailEdit"/>
 
-
+    <Button
+        android:id="@+id/rRegisterBtn"
+        android:text="Register"
+        android:layout_below="@id/rPasswordEdit"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+        <!--style:here-->
 
 </RelativeLayout>
