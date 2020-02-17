@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "432341208190",
+    "firebase_url": "https://bravoapp-44ade.firebaseio.com",
+    "project_id": "bravoapp-44ade",
+    "storage_bucket": "bravoapp-44ade.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432341208190:android:26d718bfff51da49029c2f",
+        "android_client_info": {
+          "package_name": "com.bravo.bravoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432341208190-r14sqfqce1a70j104ikkambomsjjbbm9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bravo.bravoapp",
+            "certificate_hash": "30c7b93652f9f53e6d21c7157db38bc20a3ca61d"
+          }
+        },
+        {
+          "client_id": "432341208190-jrs4cvst6j0r3650ja09htl0god8ao00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAynO5ss0gI0mwhhsYbgqRVvitbtYmyN2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432341208190-jrs4cvst6j0r3650ja09htl0god8ao00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
