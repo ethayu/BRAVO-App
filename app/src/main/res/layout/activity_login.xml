@@ -5,40 +5,41 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="20dp"
-    tools:context=".RegisterActivity">
+    tools:context=".LoginActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:text="Register"
+        android:text="Login"
         android:textColor="@color/black"
         android:textSize="25sp"/>
 
     <TextView
-        android:id="@+id/rWait"
+        android:id="@+id/lWait"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerInParent="true"
         android:textAlignment="center"
         android:visibility="invisible"
-        android:text="Making Your Account!"
+        android:text="Loggin In!"
         android:textColor="@color/black"
         android:textSize="25sp"/>
 
     <ProgressBar
-        android:id="@+id/rProgress"
+        android:id="@+id/lProgress"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_below="@+id/rWait"
+        android:layout_below="@+id/lWait"
         android:layout_centerHorizontal="true"
         android:visibility="invisible"/>
+
 
     <EditText
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:id="@+id/rEmailEdit"
+        android:id="@+id/lEmailEdit"
         android:inputType="textEmailAddress"
         android:hint="Email"
         android:layout_width="match_parent"
@@ -47,30 +48,30 @@
     <EditText
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:id="@+id/rPasswordEdit"
+        android:id="@+id/lPasswordEdit"
         android:inputType="textPassword"
         android:hint="Password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/rEmailEdit"/>
+        android:layout_below="@id/lEmailEdit"/>
 
     <Button
-        android:id="@+id/rRegisterBtn"
-        android:text="Register"
-        android:layout_below="@id/rPasswordEdit"
+        android:id="@+id/lLoginBtn"
+        android:text="Login"
+        android:layout_below="@id/lPasswordEdit"
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-        <!--style:here-->
+    <!--style:here-->
 
     <TextView
-        android:id="@+id/rHaveAccount"
+        android:id="@+id/lNeedRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Already have an account? Login"
+        android:text="Don't have an account? Register"
         android:textAlignment="center"
-        android:layout_below="@+id/rRegisterBtn"
+        android:layout_below="@+id/lLoginBtn"
         android:layout_marginTop="30dp" />
-        <!--style:here-->
+    <!--style:here-->
 
 </RelativeLayout>
